@@ -1,0 +1,31 @@
+# окружение
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# большие данные — в репо только ссылки на них
+*.jpg
+*.jpeg
+*.JPG
+*.JPEG
+*.png
+*.PNG
+*.heic
+*.HEIC
+*.mp4
+*.mov
+*.MOV
+
+# рисунки для отчёта и маленькие данные хранить можно
+!lab*/figures/*.png
+
+# звіт редагується в Word, у репозиторій іде лише PDF
+*.docx
+~$*
+
+# оригінали фото й відео
+photos lab1/
+
+# ще фото
+new photos/
