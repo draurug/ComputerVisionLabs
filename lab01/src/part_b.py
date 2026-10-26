@@ -112,15 +112,15 @@ def errors_picture(pred, gt):
     return pic
 
 
-fig, ax = plt.subplots(len(spaces), 2, figsize=(8, 3.2 * len(spaces)))
+fig, ax = plt.subplots(2, len(spaces), figsize=(3.2 * len(spaces), 8))
 for i, (name, code, channels) in enumerate(spaces):
     pred1, pred2 = results[name]
-    ax[i, 0].imshow(errors_picture(pred1, mask1))
-    ax[i, 0].set_title(f"{name}, кадр 1: IoU = {iou(pred1, mask1):.2f}", fontsize=9)
-    ax[i, 1].imshow(errors_picture(pred2, mask2))
-    ax[i, 1].set_title(f"{name}, кадр 2: IoU = {iou(pred2, mask2):.2f}", fontsize=9)
-    ax[i, 0].axis("off")
-    ax[i, 1].axis("off")
+    ax[0, i].imshow(errors_picture(pred1, mask1))
+    ax[0, i].set_title(f"{name}, кадр 1\nIoU = {iou(pred1, mask1):.2f}", fontsize=10)
+    ax[1, i].imshow(errors_picture(pred2, mask2))
+    ax[1, i].set_title(f"{name}, кадр 2\nIoU = {iou(pred2, mask2):.2f}", fontsize=10)
+    ax[0, i].axis("off")
+    ax[1, i].axis("off")
 fig.suptitle("зелений - правильно, червоний - зайве, синій - пропущено")
 plt.tight_layout()
 plt.savefig(os.path.join(FIG, "b_masks.png"), dpi=150, bbox_inches="tight")

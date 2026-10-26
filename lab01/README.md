@@ -19,7 +19,7 @@ python part_c.py    # кроки 12-14: аліасинг, інтерполяці
 ```bash
 python make_mask.py object_light1.jpg object_mask.png 360 380 800 1330
 python make_mask.py object_light2.jpg object_mask2.png 310 430 820 1330
-python extract_frames.py "../../photos lab1/IMG_1332.MOV" 10 rot
+python extract_frames.py "<папка originals з Google Drive>/IMG_1332.MOV" 10 rot
 ```
 
 ## Дані (`data/`)
