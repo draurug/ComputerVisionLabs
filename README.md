@@ -1,6 +1,6 @@
-# Системи комп'ютерного зору (частина 1) — лабораторні роботи
+# Computer Vision Systems (part 1) — labs
 
-## Середовище
+## Setup
 
 Python 3.14, Linux.
 
@@ -10,21 +10,25 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-`requirements.txt` — основні бібліотеки з зафіксованими версіями,
-`requirements-full.txt` — повний `pip freeze` (разом із Jupyter).
+`requirements.txt` — main libraries with pinned versions,
+`requirements-full.txt` — full `pip freeze`.
 
-Використовується OpenCV 5.0 (`opencv-contrib-python`); усі функції, згадані в практикумі, у ній присутні.
+OpenCV 5.0 (`opencv-contrib-python`).
 
-## Структура
+## Layout
 
 ```
 labNN/
-├── README.md     мета, як запустити, які файли отримаються
-├── src/          код
-├── data/         малі вхідні дані або посилання на великі
-├── results/      числові результати (CSV)
-├── figures/      рисунки для звіту
-└── report/       звіт у PDF
+├── README.md     what the lab does and how to run it
+├── src/          code
+├── data/         input images
+├── results/      numbers (CSV)
+└── figures/      plots and pictures
 ```
 
-Зображення й відео в репозиторій не потрапляють (див. `.gitignore`), окрім рисунків для звіту в `figures/`.
+Videos are not stored in the repo (see `.gitignore`).
+
+## Labs
+
+- `lab01/` — image representation, color spaces
+- `lab02/` — camera calibration, undistortion

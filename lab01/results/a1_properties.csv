@@ -1,6 +1,6 @@
-параметр,значення
+property,value
 "shape (H, W, C)","(1536, 2048, 3)"
 dtype,uint8
 min,0
 max,255
-"обсяг у пам'яті, МБ",9.0
+"memory, MB",9.0

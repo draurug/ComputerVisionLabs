@@ -1,0 +1,21 @@
+%YAML 1.2
+---
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1724.742257936196, 0., 929.09888452389953, 0.,
+       1731.1668501070581, 1286.2457341682737, 0., 0., 1. ]
+dist_coeffs: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 0.046504578179789133, -0.090528548124325967,
+       0.0006696619223599188, 0.00029770724009238974,
+       0.058763698022723757 ]
+image_width: 1920
+image_height: 2560
+square_size_mm: 15.5
+reprojection_error_px: 1.1200622320175171
+frames_used: 24
+date: "2026-10-26"

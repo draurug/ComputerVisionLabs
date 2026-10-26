@@ -1,21 +1,21 @@
-файл,камера,екв. 35 мм,витримка,ISO,дата,джерело
-rot_01.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:09.40,кадр 24 з IMG_1332.MOV (у відео немає витримки й ISO)
-rot_02.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:10.40,кадр 84 з IMG_1332.MOV (у відео немає витримки й ISO)
-rot_03.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:11.54,кадр 152 з IMG_1332.MOV (у відео немає витримки й ISO)
-rot_04.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:12.54,кадр 212 з IMG_1332.MOV (у відео немає витримки й ISO)
-rot_05.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:13.74,кадр 284 з IMG_1332.MOV (у відео немає витримки й ISO)
-rot_06.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:14.48,кадр 328 з IMG_1332.MOV (у відео немає витримки й ISO)
-rot_07.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:15.75,кадр 404 з IMG_1332.MOV (у відео немає витримки й ISO)
-rot_08.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:16.55,кадр 452 з IMG_1332.MOV (у відео немає витримки й ISO)
-rot_09.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:17.68,кадр 520 з IMG_1332.MOV (у відео немає витримки й ISO)
-rot_10.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:18.82,кадр 588 з IMG_1332.MOV (у відео немає витримки й ISO)
-scene_IMG_0160.jpg,iPhone 14 Pro,24 мм,1/103 с,250,2026:04:29 21:33:49,фото
-scene_IMG_0169.jpg,iPhone 14 Pro,48 мм,1/41667 с,50,2026:04:30 19:04:54,фото
-scene_IMG_0252.jpg,iPhone 14 Pro,24 мм,1/220 с,64,2026:05:10 21:22:04,фото
-scene_IMG_0663.jpg,iPhone 14 Pro,24 мм,1/121 с,64,2026:06:14 22:00:15,фото
-scene_IMG_0664.jpg,iPhone 14 Pro,24 мм,1/121 с,125,2026:06:14 22:00:26,фото
-scene_IMG_1328.jpg,iPhone 14 Pro,32 мм,1/100 с,125,2026:07:29 16:25:01,фото
-scene_IMG_1331.jpg,iPhone 14 Pro,32 мм,1/100 с,125,2026:07:29 16:28:19,фото
-scene_IMG_2217.jpg,iPhone 14 Pro,24 мм,1/121 с,80,2026:08:27 20:24:38,фото
-scene_IMG_2218.jpg,iPhone 14 Pro,24 мм,1/221 с,64,2026:08:27 20:24:42,фото
-scene_IMG_2559.jpg,iPhone 14 Pro,48 мм,1/4184 с,64,2026:09:16 16:36:26,фото
+file,camera,35 mm equivalent,exposure,ISO,date,source
+rot_01.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:09.40,frame 24 of IMG_1332.MOV (no exposure/ISO for video)
+rot_02.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:10.40,frame 84 of IMG_1332.MOV (no exposure/ISO for video)
+rot_03.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:11.54,frame 152 of IMG_1332.MOV (no exposure/ISO for video)
+rot_04.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:12.54,frame 212 of IMG_1332.MOV (no exposure/ISO for video)
+rot_05.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:13.74,frame 284 of IMG_1332.MOV (no exposure/ISO for video)
+rot_06.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:14.48,frame 328 of IMG_1332.MOV (no exposure/ISO for video)
+rot_07.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:15.75,frame 404 of IMG_1332.MOV (no exposure/ISO for video)
+rot_08.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:16.55,frame 452 of IMG_1332.MOV (no exposure/ISO for video)
+rot_09.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:17.68,frame 520 of IMG_1332.MOV (no exposure/ISO for video)
+rot_10.jpg,iPhone 14 Pro,-,-,-,2026:07:29 16:28:18.82,frame 588 of IMG_1332.MOV (no exposure/ISO for video)
+scene_IMG_0160.jpg,iPhone 14 Pro,24 mm,1/103 s,250,2026:04:29 21:33:49,photo
+scene_IMG_0169.jpg,iPhone 14 Pro,48 mm,1/41667 s,50,2026:04:30 19:04:54,photo
+scene_IMG_0252.jpg,iPhone 14 Pro,24 mm,1/220 s,64,2026:05:10 21:22:04,photo
+scene_IMG_0663.jpg,iPhone 14 Pro,24 mm,1/121 s,64,2026:06:14 22:00:15,photo
+scene_IMG_0664.jpg,iPhone 14 Pro,24 mm,1/121 s,125,2026:06:14 22:00:26,photo
+scene_IMG_1328.jpg,iPhone 14 Pro,32 mm,1/100 s,125,2026:07:29 16:25:01,photo
+scene_IMG_1331.jpg,iPhone 14 Pro,32 mm,1/100 s,125,2026:07:29 16:28:19,photo
+scene_IMG_2217.jpg,iPhone 14 Pro,24 mm,1/121 s,80,2026:08:27 20:24:38,photo
+scene_IMG_2218.jpg,iPhone 14 Pro,24 mm,1/221 s,64,2026:08:27 20:24:42,photo
+scene_IMG_2559.jpg,iPhone 14 Pro,48 mm,1/4184 s,64,2026:09:16 16:36:26,photo

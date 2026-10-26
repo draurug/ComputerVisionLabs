@@ -1,0 +1,14 @@
+parameter,all frames,after dropping outliers
+frames,25,24
+rms (calibrateCamera),1.717,1.3521
+"mean per-frame error, px",1.2035,1.1201
+fx,1714.44,1724.74
+fy,1720.93,1731.17
+fx / fy,0.9962,0.9963
+cx,931.79,929.1
+cy,1290.57,1286.25
+k1,0.04205,0.0465
+k2,-0.0806,-0.09053
+p1,0.00128,0.00067
+p2,0.00136,0.0003
+k3,0.05071,0.05876

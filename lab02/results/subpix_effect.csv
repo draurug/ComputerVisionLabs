@@ -1,0 +1,3 @@
+corners,rms from calibrateCamera,"mean per-frame error, px",fx,fy
+without cornerSubPix,1.8857,1.3394,1739.1,1747.0
+with cornerSubPix,1.717,1.2035,1714.4,1720.9

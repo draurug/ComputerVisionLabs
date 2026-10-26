@@ -1,4 +1,4 @@
-файл,відео,кадр,"час у відео, с",камера,початок запису
+file,video,frame,time_s,camera,record_start
 rot_01.jpg,IMG_1332.MOV,24,0.4,iPhone 14 Pro,2026-07-29T16:28:09+0200
 rot_02.jpg,IMG_1332.MOV,84,1.4,iPhone 14 Pro,2026-07-29T16:28:09+0200
 rot_03.jpg,IMG_1332.MOV,152,2.54,iPhone 14 Pro,2026-07-29T16:28:09+0200

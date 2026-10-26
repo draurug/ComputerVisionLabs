@@ -1,4 +1,4 @@
-метод,std у зоні f > f_Найквіста,"збережений контраст низьких частот, %"
+method,std where f > Nyquist,"low frequency contrast kept, %"
 INTER_NEAREST,90.1,100.3
 GaussianBlur + NEAREST,2.9,82.1
 INTER_AREA,16.0,94.5

@@ -1,45 +1,41 @@
-# ЛР1. Середовище, подання зображень, колірні простори
+# Lab 1. Image representation, color spaces
 
-Мета: розібратися з поданням зображення в пам'яті (типи, порядок каналів, стиснення)
-і порівняти, у якому колірному просторі пороги для виділення об'єкта найстабільніші
-при зміні освітлення.
+How an image is stored in memory (dtype, channel order, compression), and in which
+color space the thresholds for an object are the most stable when the lighting changes.
 
-## Як запустити
+## Run
 
 ```bash
 source ../.venv/bin/activate
 cd src
-python part_a.py    # кроки 1-5: властивості, BGR/RGB, переповнення, JPEG, EXIF
-python part_b.py    # кроки 8-11: пороги в RGB / HSV / Lab
-python part_c.py    # кроки 12-14: аліасинг, інтерполяція, гамма, сірий світ
+python part_a.py    # steps 1-5: array properties, BGR/RGB, uint8 overflow, JPEG, EXIF
+python part_b.py    # steps 8-11: thresholds in RGB / HSV / Lab
+python part_c.py    # steps 12-14: aliasing, interpolation, gamma, gray world
 ```
 
-Маски для частини B і кадри набору вже лежать у `data/`. Якщо треба зробити заново:
+The masks for part B and the dataset frames are already in `data/`. To make them again:
 
 ```bash
 python make_mask.py object_light1.jpg object_mask.png 360 380 800 1330
 python make_mask.py object_light2.jpg object_mask2.png 310 430 820 1330
-python extract_frames.py "<папка originals з Google Drive>/IMG_1332.MOV" 10 rot
+python extract_frames.py <path to IMG_1332.MOV> 10 rot
 ```
 
-## Дані (`data/`)
+## Data
 
-| Файл | Що це |
+| File | What it is |
 |---|---|
-| `photo.jpg` | пейзаж, iPhone 14 Pro (частини A і C) |
-| `texture.jpg` | вишивка хрестиком — дрібна регулярна сітка канви (крок 12) |
-| `object_light1.jpg` | баночка меду на синьому кріслі, денне світло |
-| `object_light2.jpg` | те саме під лампою (телефон трохи зсунувся) |
-| `object_mask.png`, `object_mask2.png` | еталонні маски (GrabCut) |
-| `dataset/rot_01..10.jpg` | власний набір: 10 кадрів повороту камери з відео IMG_1332.MOV (EXIF немає) |
-| `dataset/scene_IMG_*.jpg` | власний набір: 10 фото тієї самої сцени, різні ракурси й освітлення (з EXIF) |
+| `photo.jpg` | landscape, iPhone 14 Pro (parts A and C) |
+| `texture.jpg` | cross-stitch embroidery, fine regular grid (step 12) |
+| `object_light1.jpg` | jar of honey on a blue chair, daylight |
+| `object_light2.jpg` | the same under a lamp (the phone moved a bit) |
+| `object_mask.png`, `object_mask2.png` | reference masks (GrabCut) |
+| `dataset/rot_01..10.jpg` | 10 frames of a camera rotation, from the video IMG_1332.MOV (no EXIF) |
+| `dataset/scene_IMG_*.jpg` | 10 photos of the same scene, different angles and lighting (with EXIF) |
 
-Посилання на дані: _додати посилання на Google Drive_
+The video is not in the repo. `dataset/rot_frames.csv` has the frame numbers and video metadata.
 
-Фото й відео в git не додаються (див. `.gitignore`).
+## Output
 
-## Що виходить
-
-- `results/` — таблиці CSV з усіма числами;
-- `figures/` — рисунки для звіту;
-- `report/` — звіт.
+- `results/` — CSV tables
+- `figures/` — plots

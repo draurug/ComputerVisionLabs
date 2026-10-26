@@ -1,0 +1,25 @@
+file,"max deviation before, px","max deviation after, px"
+calib_01.jpg,2.15,1.502
+calib_02.jpg,1.093,0.573
+calib_03.jpg,0.902,0.786
+calib_04.jpg,1.15,0.759
+calib_05.jpg,1.756,2.38
+calib_06.jpg,2.278,2.544
+calib_07.jpg,1.397,1.676
+calib_08.jpg,1.002,0.591
+calib_09.jpg,1.441,1.45
+calib_10.jpg,1.404,0.711
+calib_11.jpg,1.097,0.939
+calib_12.jpg,1.278,0.824
+calib_13.jpg,0.986,0.777
+calib_14.jpg,0.738,1.175
+calib_15.jpg,1.401,1.846
+calib_16.jpg,10.855,10.985
+calib_17.jpg,1.463,1.781
+calib_19.jpg,2.639,3.359
+calib_20.jpg,2.254,2.297
+calib_21.jpg,1.111,1.502
+calib_22.jpg,0.954,1.068
+calib_23.jpg,1.171,1.102
+calib_24.jpg,1.084,0.626
+calib_25.jpg,1.227,1.292

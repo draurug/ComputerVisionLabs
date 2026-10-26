@@ -1,16 +1,16 @@
-# спільне для всіх частин
+# common stuff for all parts
 
 import csv
 import os
 
 import numpy as np
 
-# папка lab01
+# lab01 folder
 LAB = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(LAB, "data")
 RESULTS = os.path.join(LAB, "results")
 FIG = os.path.join(LAB, "figures")
-TMP = os.path.join(RESULTS, "tmp")  # тимчасові jpg/png
+TMP = os.path.join(RESULTS, "tmp")  # temporary jpg/png
 
 os.makedirs(RESULTS, exist_ok=True)
 os.makedirs(FIG, exist_ok=True)
