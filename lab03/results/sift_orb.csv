@@ -1,0 +1,9 @@
+file,detector,points,descriptor size,dtype,"time, ms"
+IMG_0160.jpg,SIFT,1000,128,float32,92.7
+IMG_0160.jpg,ORB,1000,32,uint8,19.1
+IMG_0663.jpg,SIFT,1001,128,float32,97.7
+IMG_0663.jpg,ORB,1000,32,uint8,22.9
+IMG_1328.jpg,SIFT,1000,128,float32,78.7
+IMG_1328.jpg,ORB,1000,32,uint8,26.7
+IMG_2217.jpg,SIFT,1000,128,float32,106.0
+IMG_2217.jpg,ORB,1000,32,uint8,25.0

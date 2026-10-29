@@ -32,3 +32,4 @@ Videos are not stored in the repo (see `.gitignore`).
 
 - `lab01/` — image representation, color spaces
 - `lab02/` — camera calibration, undistortion
+- `lab03/` — local features: Harris, SIFT, ORB, repeatability
