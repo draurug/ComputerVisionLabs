@@ -1,0 +1,6 @@
+frame a,frame b,candidates,inliers,"mean error on inliers, px"
+rot_03.jpg,rot_04.jpg,744,409,1.234
+rot_03.jpg,rot_05.jpg,52,13,0.958
+rot_03.jpg,rot_06.jpg,49,7,0.95
+rot_03.jpg,rot_07.jpg,39,7,0.113
+rot_01.jpg,rot_07.jpg,28,6,0.421

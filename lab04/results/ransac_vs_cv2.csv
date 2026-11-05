@@ -1,0 +1,4 @@
+method,inliers,"mean error on inliers, px",iterations
+own,396,1.27,1000
+cv2.findHomography RANSAC,409,1.234,
+needed for p = 0.99,,,55
