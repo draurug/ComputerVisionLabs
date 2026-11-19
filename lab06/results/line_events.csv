@@ -1,0 +1,12 @@
+tracker,frame,track id,direction,"x, px"
+simple,16,4,up,658
+simple,68,6,down,522
+simple,70,9,up,587
+simple,76,14,up,626
+simple,82,16,down,762
+simple,150,28,up,761
+Kalman,22,4,up,620
+Kalman,69,6,down,528
+Kalman,71,9,up,586
+Kalman,77,14,up,626
+Kalman,150,28,up,762

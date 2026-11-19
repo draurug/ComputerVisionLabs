@@ -1,0 +1,13 @@
+zone,method,pixels,"share of image, %","coverage, %","bad-1, %","correct, %"
+textureless (std < 2 in 15x15),BM,260220,19.22,32.94,9.53,29.84
+textureless (std < 2 in 15x15),SGBM,260220,19.22,74.14,50.5,36.6
+repeated pattern (piano keys),BM,23826,1.76,91.09,9.42,84.07
+repeated pattern (piano keys),SGBM,23826,1.76,99.95,15.81,84.15
+occlusion at left object borders,BM,59824,4.42,49.64,83.54,8.17
+occlusion at left object borders,SGBM,59824,4.42,61.54,85.56,8.89
+left strip x < 128 (no search),BM,122880,9.08,0.0,nan,0.0
+left strip x < 128 (no search),SGBM,122880,9.08,0.0,nan,0.0
+"shiny (red vase, brass lamp)",BM,22804,1.68,85.6,35.74,57.44
+"shiny (red vase, brass lamp)",SGBM,22804,1.68,91.83,37.29,59.95
+everything else,BM,823475,60.84,83.14,9.39,75.33
+everything else,SGBM,823475,60.84,97.54,11.08,86.73

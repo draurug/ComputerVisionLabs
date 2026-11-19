@@ -1,0 +1,45 @@
+pair,n,xL,yL,xR,yR,"|yL - yR|, px",correlation
+perfect,1,272.1,244.14,210.7,244.2,0.058,0.95
+perfect,2,479.46,99.73,428.26,99.23,0.499,0.902
+perfect,3,566.53,313.99,520.73,313.8,0.192,0.994
+perfect,4,897.53,262.9,861.4,262.81,0.085,0.967
+perfect,5,1243.31,279.61,1169.52,279.55,0.054,0.937
+perfect,6,245.89,487.47,167.36,487.2,0.268,0.991
+perfect,7,327.0,469.83,254.76,469.53,0.298,0.969
+perfect,8,751.83,348.6,712.76,348.53,0.074,0.997
+perfect,9,1093.2,486.54,1037.26,487.12,0.586,0.991
+perfect,10,1247.08,612.3,1192.84,610.19,2.117,0.948
+perfect,11,234.43,945.85,172.37,945.85,0.001,0.943
+perfect,12,397.01,905.6,340.51,905.56,0.033,0.921
+perfect,13,830.0,767.37,789.79,767.45,0.074,0.956
+perfect,14,916.0,659.0,877.18,658.9,0.096,0.971
+imperfect,1,212.43,210.55,152.75,210.85,0.302,0.94
+imperfect,2,492.27,90.81,439.51,90.44,0.377,0.911
+imperfect,3,580.02,308.22,533.0,308.18,0.035,0.998
+imperfect,4,912.92,258.84,876.09,258.84,0.0,0.967
+imperfect,5,1253.83,313.66,1190.33,313.78,0.128,0.966
+imperfect,6,252.0,487.0,171.17,486.82,0.178,0.99
+imperfect,7,379.68,453.84,309.03,453.58,0.257,0.969
+imperfect,8,833.76,336.8,796.29,336.76,0.04,0.988
+imperfect,9,1106.75,483.52,1050.55,484.18,0.661,0.99
+imperfect,10,1257.51,608.52,1203.22,606.5,2.023,0.944
+imperfect,11,240.74,948.62,177.84,947.86,0.759,0.933
+imperfect,12,407.09,907.45,349.65,906.85,0.599,0.911
+imperfect,13,844.78,765.52,803.79,765.18,0.341,0.956
+imperfect,14,921.1,654.61,881.69,654.43,0.18,0.906
+imperfect,15,1183.91,680.82,1127.95,680.68,0.145,0.989
+"imperfect, rectified by stereoRectifyUncalibrated",1,279.73,278.68,264.43,278.73,0.05,0.957
+"imperfect, rectified by stereoRectifyUncalibrated",2,532.31,307.31,533.73,307.06,0.253,0.991
+"imperfect, rectified by stereoRectifyUncalibrated",3,627.92,199.64,641.11,199.52,0.123,0.973
+"imperfect, rectified by stereoRectifyUncalibrated",4,908.38,263.56,920.28,263.0,0.559,0.972
+"imperfect, rectified by stereoRectifyUncalibrated",5,1253.17,133.32,1233.23,131.99,1.332,0.984
+"imperfect, rectified by stereoRectifyUncalibrated",6,201.0,484.0,169.77,483.92,0.076,0.994
+"imperfect, rectified by stereoRectifyUncalibrated",7,329.2,451.85,308.16,451.67,0.172,0.978
+"imperfect, rectified by stereoRectifyUncalibrated",8,692.11,350.55,699.68,350.41,0.134,0.996
+"imperfect, rectified by stereoRectifyUncalibrated",9,1053.36,485.54,1049.66,485.79,0.253,0.993
+"imperfect, rectified by stereoRectifyUncalibrated",10,1200.46,610.75,1201.19,608.68,2.076,0.952
+"imperfect, rectified by stereoRectifyUncalibrated",11,242.73,938.86,236.85,938.84,0.017,0.943
+"imperfect, rectified by stereoRectifyUncalibrated",12,508.31,917.85,495.31,921.09,3.241,0.929
+"imperfect, rectified by stereoRectifyUncalibrated",13,787.71,765.59,802.08,765.26,0.339,0.963
+"imperfect, rectified by stereoRectifyUncalibrated",14,859.69,654.97,874.87,655.0,0.03,0.902
+"imperfect, rectified by stereoRectifyUncalibrated",15,1126.11,682.69,1125.87,682.61,0.076,0.989

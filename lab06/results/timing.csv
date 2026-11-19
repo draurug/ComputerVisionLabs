@@ -1,0 +1,7 @@
+clip,size,method,"median time per frame, ms","90th percentile, ms"
+A,440x306,"Farneback, every pixel",277.86,498.77
+A,440x306,"LK forward + backward, 79 points",15.75,39.19
+A,440x306,"pixels with |v| > 1 px, %",5.47,
+B,768x576,"Farneback, every pixel",629.02,1180.82
+B,768x576,"LK forward + backward, 300 points",42.05,87.99
+B,768x576,"pixels with |v| > 1 px, %",5.53,

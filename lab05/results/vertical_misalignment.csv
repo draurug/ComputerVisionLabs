@@ -1,0 +1,4 @@
+pair,matches,"mean |dy|, px","median |dy|, px","95th percentile |dy|, px",picked points,"mean |dy| on picked, px","median |dy| on picked, px","max |dy| on picked, px"
+perfect,1431,0.131,0.085,0.412,14,0.317,0.09,2.117
+imperfect,1410,0.374,0.381,0.662,15,0.402,0.257,2.023
+"imperfect, rectified by stereoRectifyUncalibrated",1352,0.123,0.077,0.422,15,0.582,0.172,3.241

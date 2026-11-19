@@ -1,0 +1,7 @@
+clip,filter,points at start,points at end,share,moved > 5 px,moved and alive at end
+A,no filter,79,70,0.886,38,35
+A,forward-backward <= 1 px,79,36,0.456,14,3
+A,"forward-backward, maxLevel = 3",79,34,0.43,,
+B,no filter,300,260,0.867,131,91
+B,forward-backward <= 1 px,300,170,0.567,36,4
+B,"forward-backward, maxLevel = 3",300,170,0.567,,

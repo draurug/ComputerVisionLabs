@@ -1,0 +1,21 @@
+method,parameter,value,"coverage, %","bad-1, %","correct, %","time, ms"
+BM,numDisparities,64,41.92,10.91,37.55,326.68
+BM,numDisparities,128,51.26,7.29,48.34,462.89
+BM,numDisparities,192,47.83,7.29,45.06,317.23
+BM,blockSize,5,30.78,3.79,30.62,377.61
+BM,blockSize,9,47.23,6.71,45.14,414.43
+BM,blockSize,15,54.05,10.18,49.46,362.71
+BM,blockSize,21,55.96,13.3,49.38,320.97
+BM,uniquenessRatio,5,49.43,9.21,45.45,390.67
+BM,uniquenessRatio,10,46.92,8.44,43.61,368.5
+BM,uniquenessRatio,15,44.66,7.83,41.89,347.62
+SGBM,numDisparities,64,75.54,37.53,47.77,1177.82
+SGBM,numDisparities,128,77.83,22.65,61.37,4005.26
+SGBM,numDisparities,192,73.46,22.98,57.72,6135.81
+SGBM,blockSize,5,76.72,23.95,59.23,3661.47
+SGBM,blockSize,9,78.16,25.94,58.74,3891.33
+SGBM,blockSize,15,79.36,28.88,57.23,3612.08
+SGBM,blockSize,21,68.21,32.12,47.27,3926.97
+SGBM,uniquenessRatio,5,78.73,29.9,56.15,3997.82
+SGBM,uniquenessRatio,10,75.6,27.71,55.66,3649.64
+SGBM,uniquenessRatio,15,72.5,25.55,55.05,3671.42

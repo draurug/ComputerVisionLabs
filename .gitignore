@@ -10,6 +10,7 @@ lab*/results/tmp/
 *.mov
 *.MOV
 *.mp4
+*.avi
 
 # reports are not kept in the repo
 *.docx

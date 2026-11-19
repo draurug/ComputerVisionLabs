@@ -1,0 +1,8 @@
+object,x,y,"gt disparity, px","disparity, px","gt depth, m","computed depth, m","abs error, mm","rel error, %"
+piano front under the keys,250,560,84.28,84.19,1.722,1.723,1.1,0.06
+bench seat,560,600,60.47,60.0,2.057,2.065,7.9,0.38
+sheet music,480,260,50.27,50.06,2.244,2.248,4.1,0.18
+wall right of guitar,1060,250,41.03,51.0,2.445,2.229,215.9,8.83
+guitar body,930,650,38.72,39.0,2.501,2.494,7.0,0.28
+black folder,600,150,35.02,35.0,2.597,2.597,0.4,0.02
+wall under ceiling,750,150,25.69,30.0,2.874,2.739,134.9,4.69

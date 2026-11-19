@@ -1,0 +1,3 @@
+tracker,annotated frames,held share,held with the first id,id switches (annotated frames),"held share (every frame, interpolated)",id switches (every frame),tracks in the clip
+simple,15,1.0,0.333,1,0.986,3,34
+Kalman,15,1.0,1.0,0,1.0,0,34
