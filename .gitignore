@@ -6,6 +6,10 @@ __pycache__/
 # temporary images made by the scripts
 lab*/results/tmp/
 
+# open dataset of lab 7, downloaded by prepare_data.py
+lab07/data/PennFudanPed/
+lab07/data/PennFudanPed.zip
+
 # videos are too big for the repo
 *.mov
 *.MOV

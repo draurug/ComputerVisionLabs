@@ -38,3 +38,4 @@ Videos are not stored in the repo (see `.gitignore`).
 - `lab04/` — matching, RANSAC, panorama
 - `lab05/` — stereo: rectification, disparity, depth (Middlebury 2014)
 - `lab06/` — optical flow, background subtraction, tracking
+- `lab07/` — segmentation (Otsu, watershed, SLIC, GrabCut), HOG + SVM detector, precision–recall, AP

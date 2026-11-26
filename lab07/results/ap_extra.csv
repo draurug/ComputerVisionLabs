@@ -1,0 +1,16 @@
+quantity,value
+images,30
+annotated pedestrians,78
+raw windows,2924
+ms per image,225.5
+"AP, sorted (NMS 0.5, shrunk boxes)",0.5303
+"AP, not sorted (image order)",0.1624
+"AP, random order, mean",0.1686
+"AP, random order, std",0.0183
+"AP, random order, min",0.1319
+"AP, random order, max",0.2269
+"best IoU per pedestrian, boxes as returned, median",0.5325
+"share of pedestrians with best IoU >= 0.5, as returned",0.5897
+"best IoU per pedestrian, shrunk, median",0.6351
+"share of pedestrians with best IoU >= 0.5, shrunk",0.8462
+"annotated box width / height, median",0.367
